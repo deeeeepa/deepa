@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepa - YouTube Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fa-brands fa-youtube"></i> Deepa</h1>
+        <p>Download YouTube videos in your desired format and quality.</p>
+        
+        <form id="downloadForm">
+            <input type="text" id="videoUrl" name="videoUrl" placeholder="Paste YouTube video URL here" required>
+            <button type="submit"><i class="fa-solid fa-download"></i> Download</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
